@@ -1,0 +1,20 @@
+{
+  "name": "nxpm-docker-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn build:base && yarn build:cli && yarn build:playground-nx",
+    "build:base": "docker build base/. -f base/Dockerfile -t nxpm/base:latest",
+    "build:cli": "docker build cli/. -f cli/Dockerfile -t nxpm/cli:latest",
+    "build:playground-nx": "docker build playground-nx/. -f playground-nx/Dockerfile -t nxpm/playground-nx:latest",
+    "push": "yarn push:base && yarn push:cli && yarn push:playground-nx",
+    "push:base": "docker push nxpm/base:latest",
+    "push:cli": "docker push nxpm/cli:latest",
+    "push:playground-nx": "docker push nxpm/playground-nx:latest",
+    "run:base": "docker run -p 4567:4567 -it nxpm/base:latest"
+  },
+  "keywords": [],
+  "author": "Bram Borggreve",
+  "license": "ISC"
+}
