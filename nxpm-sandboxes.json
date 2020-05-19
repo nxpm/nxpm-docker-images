@@ -3,42 +3,42 @@
     "id": "base",
     "name": "nxpm/base:latest",
     "description": "Base Node.js image",
-    "url": "https://hub.docker.com/r/nxpm/base"
+    "url": "https://nxpm.dev/docs/sandboxes/base"
   },
   {
     "id": "cli",
     "name": "nxpm/cli:latest",
     "description": "Base Node.js image with @angular/cli, @nrwl/cli and nxpm",
-    "url": "https://hub.docker.com/r/nxpm/cli"
+    "url": "https://nxpm.dev/docs/sandboxes/cli"
   },
   {
     "id": "nx-angular-nest",
     "name": "nxpm/sandbox-nx-angular-nest:latest",
     "description": "Nx Workspace with Angular and Nest",
-    "url": "https://hub.docker.com/r/nxpm/playground-nx"
+    "url": "https://nxpm.dev/docs/sandboxes/nx-angular-nest"
   },
   {
     "id": "nx-empty",
     "name": "nxpm/sandbox-nx-empty:latest",
     "description": "Nx Workspace, empty preset",
-    "url": "https://hub.docker.com/r/nxpm/playground-nx"
+    "url": "https://nxpm.dev/docs/sandboxes/nx-empty"
   },
   {
     "id": "nx-next",
     "name": "nxpm/sandbox-nx-next:latest",
     "description": "Nx Workspace with Next.js",
-    "url": "https://hub.docker.com/r/nxpm/playground-nx"
+    "url": "https://nxpm.dev/docs/sandboxes/nx-next"
   },
   {
     "id": "nx-react-express",
     "name": "nxpm/sandbox-nx-react-express:latest",
     "description": "Nx Workspace with React and Express",
-    "url": "https://hub.docker.com/r/nxpm/playground-nx"
+    "url": "https://nxpm.dev/docs/sandboxes/nx-react-express"
   },
   {
     "id": "nx-web-components",
     "name": "nxpm/sandbox-nx-web-components:latest",
     "description": "Nx Workspace with Web Components",
-    "url": "https://hub.docker.com/r/nxpm/playground-nx"
+    "url": "https://nxpm.dev/docs/sandboxes/nx-web-components"
   }
 ]

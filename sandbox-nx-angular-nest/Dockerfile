@@ -1,3 +1,3 @@
 FROM nxpm/cli:latest
 
-RUN yarn create nx-workspace playground --appName playground --style scss --preset angular-nest --cli angular
+RUN cd / && yarn create nx-workspace workspace --appName sandbox --style scss --preset angular-nest --cli angular
