@@ -2,7 +2,7 @@ FROM nxpm/base:latest
 
 ENV ANGULAR_CLI_VERSION=9.1.6
 ENV NX_CLI_VERSION=9.3.0
-ENV NXPM_CLI_VERSION=1.9.2
+ENV NXPM_CLI_VERSION=1.11.0
 
 RUN yarn global add \
     @angular/cli@$ANGULAR_CLI_VERSION \
